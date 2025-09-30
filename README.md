@@ -51,8 +51,4 @@ npx serve . -p 8080
 
 ---
 
----
-
-¿Querés que también te genere un **`LICENSE` MIT** y un **`README` corto** para tu proyecto “Clock Weather” con badge y capturas?
-
 
