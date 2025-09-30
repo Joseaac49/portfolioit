@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "title": "Clock Weather App",
+      "description": "Reloj digital y clima por ciudad. React + API de clima; manejo de estados y errores.",
+      "tags": [
+        "React",
+        "Vite",
+        "API"
+      ],
+      "demo": "https://<tu-demo>.vercel.app/",
+      "repo": "https://github.com/Joseaac49/clock-weather"
+    },
+    {
+      "title": "Plays Dashboard (Demo)",
+      "description": "Tabla filtrable y export CSV para 'detecciones'. Front estático con datos de ejemplo.",
+      "tags": [
+        "TypeScript",
+        "Vanilla JS",
+        "CSV"
+      ],
+      "demo": "",
+      "repo": "https://github.com/Joseaac49/plays-dashboard"
+    },
+    {
+      "title": "Gasto Smart (WIP)",
+      "description": "Gestor de gastos con categorías y reportes básicos.",
+      "tags": [
+        "React",
+        "Node.js"
+      ],
+      "demo": "",
+      "repo": "https://github.com/Joseaac49"
+    }
+  ]
+}

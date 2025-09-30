@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Jose Aguilar — Portafolio</title>
+  <meta name="description" content="Portafolio de José Aguilar: Desarrollador Web Jr (React, Node.js, SQL).">
+  <meta name="author" content="Jose Aguilar" />
+  <meta name="theme-color" content="#0b1220" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Principal">
+      <a href="#home" class="logo" aria-label="Inicio">JA<span>.</span></a>
+
+      <button class="nav-toggle" aria-label="Abrir menú" aria-controls="nav-links" aria-expanded="false">☰</button>
+
+      <ul id="nav-links" class="nav-links">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Proyectos</a></li>
+        <li><a href="#experience">Experiencia</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="themeToggle" class="btn btn-ghost" aria-label="Cambiar tema">🌓</button>
+        <a class="btn" href="assets/CV_Jose.pdf" download>Descargar CV</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="home" class="hero container">
+    <div class="hero-text">
+      <span class="badge">Open to Work</span>
+      <h1>Hola, soy <span class="accent">Jose Aguilar</span></h1>
+      <p class="subtitle">Desarrollador Web Jr · React · Node.js · SQL · Excel</p>
+      <p class="summary">
+        Vengo de TI retail (Carrefour): continuidad operativa de POS, UAT y SQL. Busco aportar en un equipo de desarrollo construyendo interfaces claras,
+        integrando APIs y cuidando la calidad en producción.
+      </p>
+      <div class="hero-cta">
+        <a class="btn" href="#projects">Ver proyectos</a>
+        <a class="btn btn-ghost" target="_blank" rel="noreferrer" href="https://github.com/Joseaac49">GitHub</a>
+        <!-- TODO: actualizá tu URL real de LinkedIn -->
+        <a class="btn btn-ghost" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/jose-aguilar-2a798222a/">LinkedIn</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Skills -->
+  <section id="skills" class="section container" aria-labelledby="skills-title">
+    <h2 id="skills-title">Skills</h2>
+    <ul class="chips">
+      <li>React</li><li>JavaScript (ES6+)</li><li>Node.js</li><li>HTML5</li>
+      <li>CSS3 · Flex/Grid</li><li>Git/GitHub</li><li>SQL</li><li>Excel avanzado</li>
+      <li>Testing · UAT</li>
+    </ul>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section container" aria-labelledby="projects-title">
+    <h2 id="projects-title">Proyectos</h2>
+    <div id="projectGrid" class="grid">
+      <!-- La grilla se completa dinámicamente desde script.js -->
+      <noscript>
+        <p>Activa JavaScript para ver los proyectos. Demo: <a href="https://joseaac49.github.io/clock-weather/">Clock Weather</a></p>
+      </noscript>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section container" aria-labelledby="exp-title">
+    <h2 id="exp-title">Experiencia</h2>
+    <div class="timeline">
+      <article class="timeline-item">
+        <div class="time">2023–Actualidad</div>
+        <div class="content">
+          <h3>Analista TI — Carrefour Argentina</h3>
+          <ul>
+            <li>Soporte/monitoreo de POS y continuidad operativa.</li>
+            <li>Gestión de incidencias end-to-end y documentación.</li>
+            <li>Pruebas funcionales/UAT y aperturas de tiendas.</li>
+            <li>SQL para diagnóstico y validaciones (promos/precios).</li>
+          </ul>
+        </div>
+      </article>
+      <article class="timeline-item">
+        <div class="time">Proyectos</div>
+        <div class="content">
+          <h3>Desarrollador Web Jr — Proyectos propios</h3>
+          <ul>
+            <li>Hora y Clima: app web con React + Node (CI/CD con GitHub Actions, back en Azure).</li>
+            <li>Git flow: ramas, PRs, issues.</li>
+            <li>Portfolio estático con HTML/CSS/JS.</li>
+            <li>Varios deploys en GitHub Pages (incluye pruebas con Cypress/Selenium).</li>
+          </ul>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section container" aria-labelledby="contact-title">
+    <h2 id="contact-title">Contacto</h2>
+    <div class="contact">
+      <p>¿Charlamos? Escribime y te comparto más detalles o un mini demo.</p>
+      <div class="contact-actions">
+        <!-- TODO: poné tu email real -->
+        <a class="btn" href="mailto:jose1226a@gmail.com?subject=Consulta%20Portafolio%20Jose">📧 Enviar email</a>
+        <a class="btn btn-ghost" href="#home">⬆️ Volver arriba</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© <span id="year"></span> Jose Aguilar — Construido con HTML/CSS/JS. Deploy en GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
